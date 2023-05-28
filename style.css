@@ -1,0 +1,62 @@
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+body {
+  animation-name: bgColorChange;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+@keyframes bgColorChange {
+  0% {
+    background: linear-gradient(to left, rgb(255, 102, 102), rgb(205, 205, 205), cyan, blue, lightgreen);
+    animation-duration: 5s;
+  }
+  100%{
+    background-color: cyan;
+    animation-duration: 5s;
+  }
+}
+h2{
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  top: 10pc;
+  left: 6pc;
+}
+button{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10pc;
+  left: 27pc;
+  animation-name: buttonBGColorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes buttonBGColorChange{
+  0%{
+    background-color: cyan;
+    animation-duration: 5s;
+  }
+  100% {
+    background: linear-gradient(to left, rgb(255, 102, 102), rgb(205, 205, 205), cyan, blue, lightgreen);
+    animation-duration: 5s;
+  }
+}
+p{
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 1pc;
+  left: 1pc;
+}
